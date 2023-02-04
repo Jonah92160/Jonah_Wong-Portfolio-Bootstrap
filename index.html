@@ -7,12 +7,12 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Portfolio Bootstrap</title>
 </head>
-<body>
-    <header class="p-3 text-bg-dark">
+<body class="bg-secondary bg-gradient">
+    <header class="p-3 text-bg-dark fixed-top ">
         <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
               <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
             </a>
@@ -20,60 +20,86 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="#" class="nav-link px-2 text-secondary">JONAH</a></li>
               <li><a href="#" class="nav-link px-2 text-white">Accueil</a></li>
-              <li><a href="Jonah_Wong-Hung-Woon_CV.pdf" class="nav-link px-2 text-white">CV</a></li>
-              <li><a href="https://github.com/Jonah92160" class="nav-link px-2 text-white">Github</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
+              <li><a href="#my-3 p-3" class="nav-link px-2 text-white">Compétences</a></li>
+              <li><a href="#CV" class="nav-link px-2 text-white">CV</a></li>
+              <li><a  target="_blank" href="https://github.com/Jonah92160" class="nav-link px-2 text-white">Github</a></li>
+              <li><a href="#my-3 p-3" class="nav-link px-2 text-white">Contact</a></li>
+              <li><a href="#Lettre" class="nav-link px-2 text-white">Mes Motivations</a></li>
             </ul>
     
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
               <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
             </form>
-    
-            <div class="text-end">
-            <button type="button" class="btn btn-outline-light me-2">Se connecter</button>
-              <button type="button" class="btn btn-primary">Inscription</button>
-            </div>
           </div>
         </div>
       </header>
-    <div class="jumbotron justify-content-center bg-light" style="padding: 6rem 3rem">
-        <div class="container col-lg-auto">
-            <h1 class="display-1"> Bienvenue !</h1>
-            <p class="display-5"> Futur Développeur Web
-              <br> devenir développeur web puis me spécialiser dans un langage. 
-            <p class="display-7">	Suivant mes 7mois d'études en BTS SIO, où j'ai choisis la spécialité SLAM, j'ai décidé de me diriger vers un domaine pour lequel je me suis découvert une passion, la programmation et plus particulièrement le Web. J'aimerais aider a un projet de développpement web où je pourrais amélioré mes compétences en front, back ou full stack</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus &raquo;</a></p>
+    <div class="jumbotron justify-content-center bg-secondary bg-gradient" style="padding: 6rem 3rem">
+        <div id="Accueil" class="container col-lg-auto">
+            <h1 class="display-1 text-light"> Bienvenue sur Mon Portfolio!</h1>
+            <p class="display-5 text-light"> Futur Développeur Web
+              <br> Actuellement en BTS SIO Option Slam (1ère année)
+            <p class="display-7 text-light">
+            </p>
+            <p id= "my-3 p-3"><a class="btn btn-primary bg-gradient btn-lg" href="#cqjvf" role="button">En savoir plus &raquo;</a></p>
         </div>  
     </div>
 
-    
-    <div class="d-flex justify-content-around d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="border rounded-top bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+  
+    <div  class="bg-info bg-gradient d-flex justify-content-around d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="border rounded-top bg-primary bg-gradient mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
           <div class="my-3 py-3">
             <h2 class="display-5">Mes Compétences</h2>
             <p class="lead">Langages et Frameworks</p>
           </div>
           <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <p class="bg-primary fw-semibold text-white"> Langages </p>
-            <p class="bg-primary"> HTML </p>
-            <p class="bg-primary"> CSS </p>
-            <p class="bg-primary"> JAVASCRIPT </p>
-            <p class="bg-primary"> C# </p>
-            <p class="bg-primary fw-semibold text-white"> Frameworks </p>
-            <p class="bg-primary"> Bootstrap </p>
+            <p class="bg-primary bg-gradient fw-semibold text-light"> Langages </p>
+            <p class="bg-light text-primary"> HTML </p>
+            <p class="bg-light text-primary"> CSS </p>
+            <p class="bg-light text-primary"> JAVASCRIPT </p>
+            <p class="bg-light text-primary"> C# </p>
+            <p class="bg-primary bg-gradient fw-semibold text-light"> Frameworks </p>
+            <p class="bg-light text-primary"> Bootstrap </p>
 
         </div>
         </div>
-        <div class="border border-primary rounded-top bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="border border-primary bg-gradient rounded-top bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class="my-3 p-3">
-            <h2 class="display-5">Contact</h2>
-            <p class="lead">Mon contact sons dans cette box</p>
+            <h2 class="display-5 text-primary bg-light bg-gradient">Contact</h2>
+            <p class="lead display-7 text-primary bg-light bg-gradient"> Numéros et mails </p>
           </div>
-          <div class="bg-primary rounded-top box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><p class="bg-primary text-light">Numéros de Téléphone</p></div>
-        
+          <div class="bg-primary bg-gradient rounded-top box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><p class="bg-primary fw-semibold text-light">Numéros de Téléphone : 07 68 70 92 58</p>
+            <p id="cqjvf" class="bg-primary  bg-gradientfw-semibold text-light"> Mails : jilonah72@gmail.com </p>
+
         </div>
       </div>
+  </div>
+  <main role="main" class="inner cover bg-secondary bg-gradient">
+    <h1 class="cover-heading text-center text-white">Projet Professionnel</h1>
+    <div class="position-relative">
+    <p class="lead text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5">J'ai toujours eu un intérêt pour l'informatique et ses spécificités :<br>
+      ⦁	de façon autodidacte, j'ai créé des vidéos à partir de mon gameplay (partie de jeu) en intégrant des effets visuels <br>
+      ⦁	je m'intéresse à la conception de sites web en identifiant la direction artistique donnée aux développeurs <br>
+      ⦁	j'utilise aussi beaucoup les réseaux sociaux comme twitter pour m'informer des actualités.<br>
+      </p>
+    <p class="lead text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5">Je suis convaincu que les compétences en développement web sont de plus en plus importantes pour la société moderne et je suis déterminé à les acquérir. Je suis passionné par les technologies front-end telles que HTML, CSS et JavaScript. Le back-end ne m'intéresse pas particulièrement <br>J'ai déjà commencé à explorer les différents aspects du développement web en autodidacte en suivant des cours en ligne(openclassroom).<br>En fin de compte, je veux devenir un développeur web compétent et capable de créer des applications web modernes et performantes qui peuvent améliorer la vie des utilisateurs. Je suis déterminé à poursuivre dans<br id="CV"> cette branche de métier et je suis convaincu que je peux réaliser mes ambitions avec la détermination et le dévouement nécessaires.
+    </p>
+  </div>
+  </main >
+  <h1  class="cover-heading text-center text-white">CV</h1><br>
+  <div  class="d-flex justify-content-center">
+    
+    <div class="p-2"><embed src="Jonah_Wong-Hung-Woon_CV.pdf" width="985" height="622" type="application/pdf"></div>
+    
+  </div > 
+  <p id="Lettre"></p>
+  <h1 class="cover-heading text-center text-white">Mes Motivations</h1><br>
+  <div class="d-flex justify-content-center">
+    
+    <div class="p-2"><embed src="Jonah-Wong-Hung-Woon_lettre-motivation_Stage-web_2023-v4.pdf" width="985" height="622" type="application/pdf"></div>
+    
+  </div>
   
+    
 </body>
 
 
